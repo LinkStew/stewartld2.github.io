@@ -1,0 +1,45 @@
+.centerspacing {
+    padding: 40px;
+    margin: auto;
+    max-width: 700px;
+}
+
+.lightbox {
+    background-color: rgb(219, 219, 219);
+    border-radius: 5px;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.darkbox {
+    background-color: rgb(209, 209, 209);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+span {
+    font-weight: normal;
+    text-transform: none;
+}
+
+p, .listbox {
+    border: 2px solid;
+    background-color: rgb(237, 219, 255);
+    padding: 2px;
+    border-color: blueviolet;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+li {
+    list-style-type: none;
+}
