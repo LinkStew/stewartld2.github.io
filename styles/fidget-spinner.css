@@ -1,0 +1,13 @@
+.centerspacing {
+    padding: 40px;
+    margin: auto;
+    max-width: 700px;
+}
+
+.spinner:hover {
+    transform: rotate(3600deg);
+    transition: transform 4s ease-in-out;
+    transform-origin: 319px 364px;
+    /* i use transform-origin to put the pivot on the center of the image */
+    /* i went into a paint program and found the pixel in the middle of the spinner */
+}
